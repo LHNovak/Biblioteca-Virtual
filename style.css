@@ -1,0 +1,99 @@
+body {
+    background: url("https://i.postimg.cc/RVqgW0jS/wp4426455.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px; 
+}
+
+.titulo {
+  width:350px;
+  margin:auto;
+}
+
+h1 {
+  box-shadow: 0 0 20px;
+  background-color: rgb(0, 110, 65);
+  border: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.consulta-form {
+    background-color: rgba(0, 0, 0, 0.6); /* fundo escuro translúcido */
+    padding: 20px 30px;
+    border: 2px solid #8B4513; /* marrom madeira */
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3); /* brilho dourado */
+    font-family: 'Georgia', serif;
+    color: #f0e6d6;
+    text-align: center;
+}
+
+.consulta-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.consulta-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #a0522d;
+    border-radius: 5px;
+    background-color: #2f2f2f;
+    color: #f5f5f5;
+    margin-bottom: 15px;
+}
+
+.consulta-form input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.consulta-form input[type="submit"] {
+    background-color: #a0522d;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
+
+.consulta-form input[type="submit"]:hover {
+    background-color: rgb(0, 110, 65);
+}
+
+.registro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registro-botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #a0522d;
+    color: #fff3dc;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+.registro-botao:hover {
+    background-color: rgb(0, 110, 65);
+    color: white;
+    border-color: black;
+    box-shadow: 0 0 15px black;
+}
