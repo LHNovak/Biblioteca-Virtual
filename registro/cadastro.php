@@ -46,7 +46,8 @@
                 <option value="6">Comédia</option>
                 <option value="7">Suspense</option>
                 <option value="8">Terror</option>
-                <option value="9">Outros</option>
+                <option value="9">Ficção</option>
+                <option value="10">Outros</option>
               </select>
             </td>
           </tr>
@@ -59,6 +60,7 @@
             <td>
               <div class="file-box">
                 <input type="file" name="imagem" id="imagemLivro" accept="image/*">
+                <input type="hidden" name="imagem_url" id="imagem_url">
               </div>
             </td>
           </tr>
@@ -74,10 +76,10 @@
     <div class="imagem-preview">
       <label>Prévia da Capa:</label><br><br>
       <img id="preview" src="#" alt="Prévia da Capa" style="display: none;" />
-      <input type="hidden" name="imagem_url" id="imagem_url">
     </div>
   </div>
-
+  <?php require_once "config.php"; ?>
+  <script> const apiKey = "<?php echo GOOGLE_BOOKS_API_KEY; ?>"; </script>
   <script src="script.js"></script>
 </body>
 </html>

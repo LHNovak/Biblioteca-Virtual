@@ -3,6 +3,8 @@
 const nomeInput = document.querySelector('input[name="nome"]');
 const autorInput = document.querySelector('input[name="autor"]');
 const sinopseInput = document.querySelector('textarea[name="sinopse"]');
+const imagemInput = document.querySelector('input[name="imagem_url"]');
+const imagemPreview = document.getElementById('preview');
 const botaoBuscar = document.getElementById('buscarGoogleBooks');
 
 botaoBuscar.addEventListener("click", async function () {
@@ -20,7 +22,8 @@ botaoBuscar.addEventListener("click", async function () {
     botaoBuscar.disabled = true;
 
     try {
-        const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}`);
+        const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}&key=${apiKey}`);
+
         const data = await response.json();
         
         if (!data.items || data.items.length === 0) {
@@ -40,6 +43,25 @@ botaoBuscar.addEventListener("click", async function () {
 
         if (livro.description) {
             sinopseInput.value = livro.description;
+        }
+
+        if (livro.imageLinks) {
+            const imageUrl = livro.imageLinks.thumbnail;
+        
+            if (imageUrl) {
+                let cleanUrl = imageUrl.replace("http:", "https:");
+
+                // Tenta aumentar a resolução da imagem substituindo zoom=1 por zoom=3
+                if (cleanUrl.includes("zoom=")) {
+                    cleanUrl = cleanUrl.replace(/zoom=\d/, "zoom=3");
+                }
+
+                preview.src = cleanUrl;
+                preview.style.display = "block";
+                if (imagemInput) {
+                    imagemInput.value = cleanUrl;
+                }
+            }
         }
         
     } catch (error) {
