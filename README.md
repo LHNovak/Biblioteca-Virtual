@@ -1,7 +1,7 @@
 # 📚 Biblioteca Virtual  
 
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
 [![Made with](https://img.shields.io/badge/Made%20with-PHP-blue?style=for-the-badge&logo=php)](#)
 [![Google Books API](https://img.shields.io/badge/API-Google%20Books-red?style=for-the-badge&logo=google)](#)
 
@@ -140,7 +140,7 @@ Ela funciona como um **catálogo pessoal de livros**, permitindo que o usuário 
 ---
 
 ## 📄 Licença
-Este projeto está licenciado sob a licença **MIT**.  
+Este projeto está licenciado sob a licença **APACHE 2.0**.  
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
