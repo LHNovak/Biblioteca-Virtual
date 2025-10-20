@@ -119,13 +119,14 @@ Ela funciona como um **catálogo pessoal de livros**, permitindo que o usuário 
 ## 🖼️ Demonstração
 
 ### 📋 Tela Inicial
-[![Tela-Inicial.png](https://i.postimg.cc/yNb60wx5/Tela-Inicial.png)](https://postimg.cc/WD0PvYM6)
+![Tela-Inicial.png](https://i.postimg.cc/yNb60wx5/Tela-Inicial.png)
 
 ### 📚 Catálogo de Livros
-[![Tela-Consulta.png](https://i.postimg.cc/qvKGfTV8/Tela-Consulta.png)](https://postimg.cc/HrpM5FLx)
+![Tela-Consulta.png](https://i.postimg.cc/qvKGfTV8/Tela-Consulta.png)
 
 ### 📚 Registro de Livros
-[![Tela-Cadastro.png](https://i.postimg.cc/WpKrsH7n/Tela-Cadastro.png)](https://postimg.cc/Sj6jrV32)
+![Tela-Cadastro.png](https://i.postimg.cc/WpKrsH7n/Tela-Cadastro.png)
+
 ---
 
 ## 🧠 Aprendizados e Conceitos Praticados
