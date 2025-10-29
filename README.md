@@ -119,13 +119,13 @@ Ela funciona como um **catálogo pessoal de livros**, permitindo que o usuário 
 ## 🖼️ Demonstração
 
 ### 📋 Tela Inicial
-![Tela-Inicial.png](https://i.postimg.cc/yNb60wx5/Tela-Inicial.png)
+![Tela-Inicial.png](https://github.com/LHNovak/Biblioteca-Virtual/blob/4927b9fad98bbfa3eb49c9b8424c1026fc71b810/Images/Tela%20Inicial.png)
 
 ### 📚 Catálogo de Livros
-![Tela-Consulta.png](https://i.postimg.cc/qvKGfTV8/Tela-Consulta.png)
+![Tela-Consulta.png](https://github.com/LHNovak/Biblioteca-Virtual/blob/4927b9fad98bbfa3eb49c9b8424c1026fc71b810/Images/Tela%20Consulta.png)
 
 ### 📚 Registro de Livros
-![Tela-Cadastro.png](https://i.postimg.cc/WpKrsH7n/Tela-Cadastro.png)
+![Tela-Cadastro.png](https://github.com/LHNovak/Biblioteca-Virtual/blob/4927b9fad98bbfa3eb49c9b8424c1026fc71b810/Images/Tela%20Cadastro.png)
 
 ---
 
